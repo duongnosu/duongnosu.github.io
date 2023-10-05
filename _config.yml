@@ -82,8 +82,9 @@ analytics:
 author:
   name             : "Nhu Duong"
   avatar           : "profile.png"
-  bio              : "Master student in Data Science at Macquare University, Sydney, Australia"
-  location         : "Location"
+  bio              : "Master student in Data Science at Macquarie University
+  "
+  location         : "Sydney, Australia"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -96,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "duongnosu"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "printf_Nhu"
   vine             :
   weibo            :
   xing             :
