@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi there!👋 I'm Nhu Duong, a master student in Data Science at Macquarie University, Sydney, Australia. I'm interested in Time-Series Forecasting, NLP and Data Visualization.
+Hi there!👋 I'm Nhu Duong, a master student in Data Science at Macquarie University, Sydney, Australia 🇦🇺. I'm interested in 📈Time-Series Forecasting, NLP and 🖼 Data Visualization.
