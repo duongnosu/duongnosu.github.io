@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Nhu Duong"
   avatar           : "DuongHoangNhu.jpg"
-  bio              : "Master student in Data Science at Macquarie University \n B.S Electrical & Computer Engineering at Oregon State University"
+  bio              : "Master student in Data Science at Macquarie University <br> B.S Electrical & Computer Engineering at Oregon State University"
   location         : "Sydney, Australia"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
