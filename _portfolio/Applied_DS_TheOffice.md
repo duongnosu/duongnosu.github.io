@@ -1,11 +1,12 @@
 ---
 title: "Applied Data Science to The Office TV Show"
-excerpt: "Exploring The Office (U.S) transcipt data with `pandas`, `nltk`, `NetworkX`"
+excerpt: "Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX` <br/><img src='/images/The_Office_imgs/Emotion_banner.png'>"
 collection: portfolio
 ---
 
 Exploring The Office (U.S) transcipt data with `pandas`, `nltk`, `NetworkX`
 
+![Alt text](/images/The_Office_imgs/Emotion_banner.png)
 ## Motivation 
 
 After completing a series of courses in Applied Data Science in Python from University of Michigan, I wanted to put the skills and knowledge that I have learned into a fun project.
@@ -178,9 +179,42 @@ def pie_plot(data = None, title=None, location=None):
 ```
 NRClex provided `raw_emotion_scores()` to get a list of emotions. Running that function on each character’s lines returns the emotional effect. All I needed to do is sort them out and send it to the `pie_plot` function. I used Affinity Photo to add them all together.
 
+### "That's what she said!"
+In order to see what the characters say the most, n-gram analysis is the best fit. So what is n-gram? n-gram is a sequence of n words with n = 1,2,3 … For example, “Toward Data Science” is a 3-grams (tri-grams), “Dunder Mifflin” is a 2-grams (bi-grams) . N-gram can be used to analyze the the meaning of the text. In this post, I visualized the most common n-grams of some characters.
 
+![Michael_ngrams](/images/The_Office_imgs/Michael_ngrams.png)
 
+Looking at the Uni-gram of Michael, Dwight and Pam got mentioned many times. It’s surprising that Jim did not make it to the top 20. The Bi-grams graph shows “conference room” was mentioned 73 times. Michael loves having people in the conference room, most of the time just for some random reasons unrelated to the day’s business. The analysis on Michael’s spoken words can not be complete without his iconic “That’s what she said!” joke.
 
+[![What_she_said](https://img.youtube.com/vi/dBUGfs9rwms/sddefault.jpg)](https://www.youtube.com/watch?v=dBUGfs9rwms)
 
+```python
+#convert the text to all lower case
+officep['line_text']=office['line_text'].str.lower()
+#create dataFrame to hold all spoken_line by Michael
+michael_df_joke = office[office['speaker']=='Michael'].reset_index()
+mcount =0
+for i in range(0,len(michael_df_joke)):
+    x = re.search('what she said',michael_df_joke['line_text_lower'][i])
+    if type(x)==re.Match:
+        mcount = mcount + 1
+```
 
+![Alt text](/images/The_Office_imgs/Dwight_ngrams.png)
+![Alt text](/images/The_Office_imgs/Jim_ngrams.png)
+![Alt text](/images/The_Office_imgs/Pam_ngrams.png)
+![Alt text](/images/The_Office_imgs/Kevin_ngrams.png)
 
+## Conclusion
+In this post, we went over some steps to explore the data and sentiment analysis. We have touched up on data wrangling with pandas, characters interaction using `NetworkX`, NLP with `nltk` and `NRClex`, data visualization with `seaborn` and `matplotlib`.
+
+Using a show like ‘The Office’ as my subject felt like the perfect opportunity to not only practice but also improve my skill in the field of Data Science. It was an exciting, although at times, a challenging project. I am very impressed with the NPL tools and their power to present deeper insight view from the data.
+
+I hope you enjoyed reading this post as much as I enjoyed writing it. If you have any questions or comments, please feel free to contact me. I would love to hear from you.
+
+## References
+- Daniel Gaerber. Github. [interesting_visuals](https://github.com/Gandagorn/interesting_visuals).
+- Adam Reevesman. Toward Data Science. [The Simpsons meets data visualization](https://towardsdatascience.com/the-simpsons-meets-data-visualization-ef8ef0819d13).
+- Ruchi Bhatia.Kaggle. [Sentiment Analysis The Simpsons](https://www.kaggle.com/ruchi798/sentiment-analysis-the-simpsons).
+-  Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
+-  Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
