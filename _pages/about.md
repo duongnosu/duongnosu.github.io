@@ -15,7 +15,7 @@ Hi there!👋 I'm Nhu Duong, a master student in Data Science at Macquarie Unive
 ### [Applied Data Science to The Office TV Show](/portfolio/Applied_DS_TheOffice/)
 ![Alt text](/images/The_Office_imgs/emotion_small.png)
 
-Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX` 
+Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX`
 
 Over 29,000 views on Reddit [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/lulc9h/interaction_graph_of_18_characters_in_the_office/)
 
