@@ -21,6 +21,5 @@ I downloaded the dialogue/transcript from [Kaggle](https://www.kaggle.com/nasirk
 ## The characters
 While there are many frequent characters, there are 4 in particular that are arguably the main cast: Michael, Dwight, Jim, Pam. Some people argue that certain characters are more prominent, however let’s see what the data actually says by plotting the lines spoken by the characters.
 
-![Line Count Analyis](../_site/images/The_Office_imgs/Line_count_analysis.png)
 
-![picture](../_site/images/image-alignment-150x150.jpg)
+![line_count](duongnosu.github.io/images/The_Office_imgs/Line_count_analysis.png)
