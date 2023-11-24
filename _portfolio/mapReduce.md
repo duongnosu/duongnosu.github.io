@@ -29,7 +29,7 @@ Movies data set.
 [^1]: MapReduce(https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean_html/)
 
 ## 1. Calculate the number of movies released by each production company for each year in the dataset.
-
+# Add figure here
 1. **Data Retrieval**: Access the '`movie` -> `date`' path to obtain the release date. Extract release year.
 2. **Company Identification**: Access the '`movie` -> `companies`' path to identify the production companies associated with the movie. Note that a movie may be jointly produced by multiple companies, we only consider  the top three production companies.
 3. **Data Formatting**: Generate a series of pairs for each movie in the following format: `<year, company>`. This can be achieved by combining the movie's release year (Step 1) with the names of the production companies (Step 2).
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 ## 2. Implement the Merge Sort algorithm and the Bucket Sort algorithm using two MapReduce programs, to sort results.
 
 ### Merge Sort
-
+Add figure here
 #### Code implementation
 ```python
 #merge_sort.py
@@ -165,6 +165,7 @@ if __name__ == '__main__':
 "1998,Touchstone Pictures"	10
 ```
 ### Bucket Sort
+Add  figure here
 #### Code implementation
 ```python
 #bucket_sort.py
@@ -213,3 +214,7 @@ if __name__ == '__main__':
 "2016,Will Packer Productions"	1
 "2016,Working Title Films"	1
 ```
+
+#Todo
+- [ ] Add more figures
+- [ ] 
