@@ -21,4 +21,5 @@ Over 29,000 views on Reddit [/r/dataisbeautiful](https://www.reddit.com/r/datais
 
 ![Alt text](../images/The_Office_imgs/TheOffice_wob_thumbnail.png)
 
+---
 ### [Processing Big Data with `MapReduce` model  in `MongoDB` database.](/portfolio/mapReduce/)
