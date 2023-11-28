@@ -16,7 +16,7 @@ In this post, I am going to implementing Merge Sort and Bucket Sort using `MapRe
 2. Implement the Merge Sort algorithm and the Bucket Sort algorithm using two MapReduce programs, to sort results of Task 1.
 
 #### Dataset:
-Movies data set.
+Movies data set. [^2]
 ![Alt text](/images/MapReduce/dataset.png)
 
 
@@ -214,3 +214,11 @@ if __name__ == '__main__':
 "2016,Will Packer Productions"	1
 "2016,Working Title Films"	1
 ```
+## Conclusion
+In this post, I have implemented the Merge Sort and Bucket Sort algorithms using the `MapReduce` model in `MongoDB` database. Using the examples above, you can have a better understanding of the MapReduce model and how it can be applied to process Big Data. Especially in the Document Database like `MongoDB`, using `MapReduce` with an implementation of sorting algorithms  is a powerful tool to process large data sets that can save you a lot of time and effort.
+
+## Note
+The code in this post is a part of  my answer to the assignment of Big Data course at Macquarie University. Do NOT copy this code for your assignment. You can use it as a reference for your own implementation.
+## References
+[^1]: MapReduce(https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean_html/)
+[^2]: Movies data set. The data was a part of the assignment of Big Data course at Macquarie University, Sydney, Australia. 
