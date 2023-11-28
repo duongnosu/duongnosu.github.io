@@ -19,7 +19,9 @@ Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX`
 
 Over 29,000 views on Reddit [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/lulc9h/interaction_graph_of_18_characters_in_the_office/)
 
-![Alt text](../images/The_Office_imgs/TheOffice_wob_thumbnail.png)
+![Alt text](/images/The_Office_imgs/TheOffice_wob_thumbnail.png)
 
 ---
 ### [Processing Big Data with `MapReduce` model  in `MongoDB` database.](/portfolio/mapReduce/)
+![Alt text](/images/MapReduce/MapReduce_thumbnail.png)
+Implementing Merge Sort and Bucket Sort using `MapReduce` model 
