@@ -1,6 +1,6 @@
 ---
 title: " Processing Big Data with `MapReduce` model  in `MongoDB` database. "
-excerpt: "Implementing Merge Sort and Bucket Sort with `python` using `MapReduce` model  in `MongoDB` database. "
+excerpt: "Implementing Merge Sort and Bucket Sort with `python` using `MapReduce` model  in `MongoDB` database.<br/><img src='/images/MapReduce/MapReduce.png'> "
 collection: portfolio
 ---
 
