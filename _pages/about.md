@@ -14,6 +14,7 @@ Hi there!👋 I'm Nhu Duong, a master student in Data Science at Macquarie Unive
 ## Portfolio Projects
 ### [Applied Data Science to The Office TV Show](/portfolio/Applied_DS_TheOffice/)
 ![Alt text](/images/The_Office_imgs/emotion_small.png)
+
 ![Alt text](/images/The_Office_imgs/TheOffice_wob_thumbnail.png)
 
 Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX`
