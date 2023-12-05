@@ -208,7 +208,7 @@ for i in range(0,len(michael_df_joke)):
 ## Conclusion
 In this post, we went over some steps to explore the data and sentiment analysis. We have touched up on data wrangling with pandas, characters interaction using `NetworkX`, NLP with `nltk` and `NRClex`, data visualization with `seaborn` and `matplotlib`.
 
-Using a show like ‘The Office’ as my subject felt like the perfect opportunity to not only practice but also improve my skill in the field of Data Science. It was an exciting, although at times, a challenging project. I am very impressed with the NPL tools and their power to present deeper insight view from the data.
+Using a show like ‘The Office’ as my subject felt like the perfect opportunity to not only practice but also improve my skill in the field of Data Science. It was an exciting, although at times, a challenging project. I am very impressed with the NLP tools and their power to present deeper insight view from the data.
 
 I hope you enjoyed reading this post as much as I enjoyed writing it. If you have any questions or comments, please feel free to contact me. I would love to hear from you.
 
