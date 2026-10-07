@@ -42,6 +42,7 @@ redirect_from:
 
 # Projects
 
+- **[YouTube Transcript Downloader](/portfolio/youtube-transcript-downloader/)** ([Link](https://youtubetranscriptdownload.com)): Web app that turns YouTube videos into text, with 9 export formats, AI summaries, chapters and caption polishing, bulk channel/playlist downloads and a developer API.
 - **[Applied Data Science to The Office TV Show](/portfolio/Applied_DS_TheOffice/)**: NLP and network analysis of the show's transcripts with `pandas`, `nltk` and `NetworkX`. The character interaction graph drew 29,000+ views on Reddit r/dataisbeautiful.
 - **[Credit Score, Debt and Mortgage Default](/posts/2024/08/blog-post/)**: Case study on whether credit score and debt predict mortgage default.
 - **[Processing Big Data with MapReduce in MongoDB](/portfolio/mapReduce/)**: Implemented Merge Sort and Bucket Sort with the MapReduce model in `Python` and `MongoDB`.

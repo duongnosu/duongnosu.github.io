@@ -2,6 +2,7 @@
 title: "Applied Data Science to The Office TV Show"
 excerpt: "Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX` <br/><img src='/images/The_Office_imgs/Emotion_banner.png'>"
 collection: portfolio
+order: 1
 ---
 
 Exploring The Office (U.S) transcipt data with `pandas`, `nltk`, `NetworkX`
