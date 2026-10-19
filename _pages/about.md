@@ -19,7 +19,7 @@ Hi there!👋 I'm Nhu Duong, a Data Scientist based in Sydney, Australia,  with 
 
 Exploring The Office (U.S) transcript data with `pandas`, `nltk`, `NetworkX`
 
-Over 29,000 views on Reddit [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/lulc9h/interaction_graph_of_18_characters_in_the_office/)
+Over 30,000 upvotes and 650 comments on Reddit [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/lulc9h/interaction_graph_of_18_characters_in_the_office/)
 
 
 
