@@ -213,6 +213,9 @@ Using a show like ‘The Office’ as my subject felt like the perfect opportuni
 
 I hope you enjoyed reading this post as much as I enjoyed writing it. If you have any questions or comments, please feel free to contact me. I would love to hear from you.
 
+Come to my Reddit post with over 30,000 upvotes and 650 comments discussion about the interaction between characters.
+[My Reddit Post](https://www.reddit.com/r/dataisbeautiful/comments/lulc9h/interaction_graph_of_18_characters_in_the_office/)
+
 ## References
 - Daniel Gaerber. Github. [interesting_visuals](https://github.com/Gandagorn/interesting_visuals).
 - Adam Reevesman. Toward Data Science. [The Simpsons meets data visualization](https://towardsdatascience.com/the-simpsons-meets-data-visualization-ef8ef0819d13).
